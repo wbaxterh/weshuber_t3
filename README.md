@@ -2,7 +2,7 @@
 
 ## TODO:
 
-- [ ] make it deploy (aws or vercel)
+- [x] make it deploy (aws or vercel)
 - [ ] scaffold basic ui with mock data
 - [ ] set up a database (supabase or vercel postgres)
 - [ ] attach db to UI

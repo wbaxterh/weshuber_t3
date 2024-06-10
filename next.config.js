@@ -5,6 +5,11 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  reactStrictMode: true,
+  images: {
+    domains: ["utfs.io"], // Whitelist the external domain here
+  },
+};
 
 export default config;

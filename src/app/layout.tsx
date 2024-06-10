@@ -1,5 +1,5 @@
 import "~/styles/globals.css";
-
+import Navbar from "~/app/components/navbar";
 import { GeistSans } from "geist/font/sans";
 
 export const metadata = {
@@ -15,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
